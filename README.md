@@ -10,12 +10,12 @@ The UI is built with **Laravel** and **Livewire**. Authentication uses **separat
 
 ## Roles & access
 
-| Role | Typical access |
-|------|----------------|
-| **Admin** | Institution-wide student directory, notifications, and student detail views. |
-| **Student** | Personal portal: enrollments, published grades, adviser info, and attendance check-in (location / optional face checks per your settings). |
-| **Instructor** | Students they advise or teach: classes, enrollments, grading workflow, and shared student detail views with admins. |
-| **Program chair** | Oversight for their program(s): instructor roster, pending enrollments and grades that need approval within the program. |
+| Role | Typical access | Credentials |
+|------|----------------|----------------|
+| **Admin** | Institution-wide student directory, notifications, and student detail views. | admin@example.com / password123 |
+| **Student** | Personal portal: enrollments, published grades, adviser info, and attendance check-in (location / optional face checks per your settings). | meow@example.com / password123 |
+| **Instructor** | Students they advise or teach: classes, enrollments, grading workflow, and shared student detail views with admins. | justin@example.com / password123 |
+| **Program chair** | Oversight for their program(s): instructor roster, pending enrollments and grades that need approval within the program. | chair@example.com / password123 |
 
 Everyone with a role can open the **home dashboard** (scoped to what they are allowed to see) and **account settings**; everything else follows the table above.
 
